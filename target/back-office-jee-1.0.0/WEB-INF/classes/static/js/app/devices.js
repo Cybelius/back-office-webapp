@@ -13,10 +13,7 @@ controllers.controller("DevicesController", ["$scope", "backOfficeService",
         };
 
         backOfficeService.getAllDevices().then(function (value) {
-            console.log(value.data);
-
             $scope.devices = value.data;
-
         }, function (reason) {
             console.log("error occured");
         }, function (value) {

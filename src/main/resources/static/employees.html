@@ -1,0 +1,35 @@
+<div class="bo-global-container">
+    <div class="container">
+
+        <br>
+        <h2>List of employees</h2>
+        <br>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Lastname</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="employee in employees">
+                    <td scope="row">
+                        {{employee.id}}
+                    </td>
+                    <td>
+                        <a href="#/employees/employee/{{employee.id}}">
+                            {{employee.name}}
+                        </a>
+                    </td>
+                    <td>
+                        {{employee.lastName}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <a href="#" class="btn btn-primary">Cancel</a>
+    </div>
+</div>

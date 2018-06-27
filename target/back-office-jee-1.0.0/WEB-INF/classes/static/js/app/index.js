@@ -1,6 +1,6 @@
 'use strict';
 
-var backoffice = angular.module('BackOffice', ['BackOfficeControllers', 'ngRoute', 'angular-growl']);
+var backoffice = angular.module('BackOffice', ['BackOfficeControllers', 'ngRoute', 'angular-growl', 'isteven-multi-select']);
 
 backoffice.config([
     '$routeProvider', 'growlProvider',
@@ -12,9 +12,12 @@ backoffice.config([
         }).when('/devices', {
             controller: 'DevicesController',
             templateUrl: '/devices.html'
-        }).when('/device', {
-            controller: 'DeviceController',
-            templateUrl: '/device.html'
+        }).when('/employees', {
+            controller: 'EmployeesController',
+            templateUrl: '/employees.html'
+        }).when('/employees/employee/:id', {
+            controller: 'EmployeeController',
+            templateUrl: '/employee.html'
         }).otherwise({
             redirectTo: '/home'
         });
@@ -30,5 +33,6 @@ var controllers = angular.module('BackOfficeControllers', []);
 
 backoffice.constant("CONSTANTS", {
     getDevicesByEmployee: "/device/getDevciesByEmployee/",
-    getAllDevices: "/devices"
+    getAllDevices: "/devices",
+    getAllEmployees: "/employees"
 });

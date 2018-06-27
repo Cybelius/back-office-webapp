@@ -38,7 +38,7 @@ public class EmployeeController {
         final RestTemplate restTemplate = new RestTemplate();
 
         final ResponseEntity<List<EmployeeAPI>> employeesResponse =
-                restTemplate.exchange("http://localhost:8080/mobile-transaction/employees",
+                restTemplate.exchange("http://localhost:8080/back-office/employees",
                         HttpMethod.GET, null, new ParameterizedTypeReference<List<EmployeeAPI>>() {
                         }
                 );

@@ -9,6 +9,10 @@ backoffice.factory('backOfficeService', [
             return $http.get(CONSTANTS.getAllDevices);
         };
 
+        service.getAllEmployees = function () {
+            return $http.get(CONSTANTS.getAllEmployees);
+        };
+
         return service;
     }
 ]);
