@@ -2,6 +2,8 @@ package com.backoffice.core.service;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import java.util.Collection;
+
 /**
  * Created by Geoffrey on 26.06.2018
  *
@@ -20,7 +22,7 @@ public class DeviceAPI {
 
     /**
      */
-    private String employees;
+    private Collection<EmployeeAPI> employees;
 
     /**
      */
@@ -81,14 +83,14 @@ public class DeviceAPI {
 
     /**
      */
-    public String getEmployees() {
-        return employees;
+    public void setEmployees(Collection<EmployeeAPI> employees) {
+        this.employees = employees;
     }
 
     /**
      */
-    public void setEmployees(final String employees) {
-        this.employees = employees;
+    public Collection<EmployeeAPI> getEmployees() {
+        return employees;
     }
 
     /**
