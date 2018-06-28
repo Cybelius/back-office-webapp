@@ -24,7 +24,12 @@
             <br>
 
             <a href="#" class="btn btn-primary">Cancel</a>
-            <button type="submit" class="btn btn-success">Update</button>
+            <button type="submit" class="btn btn-success">
+                <span ng-show="updateButton == 'Searching'">
+                    <i class="fas fa-sync-alt spinning"></i>
+                </span>
+                Update
+            </button>
         </form>
     </div>
 </div>

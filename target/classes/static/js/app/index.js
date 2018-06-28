@@ -18,6 +18,9 @@ backoffice.config([
         }).when('/employees/employee/:id', {
             controller: 'EmployeeController',
             templateUrl: '/employee.html'
+        }).when('/login', {
+            controller: 'LoginController',
+            templateUrl: '/login.html'
         }).otherwise({
             redirectTo: '/home'
         });
@@ -34,5 +37,6 @@ var controllers = angular.module('BackOfficeControllers', []);
 backoffice.constant("CONSTANTS", {
     getDevicesByEmployee: "/device/getDevciesByEmployee/",
     getAllDevices: "/devices",
-    getAllEmployees: "/employees"
+    getAllEmployees: "/employees",
+    updateEmployee: "/employees/employee/"
 });

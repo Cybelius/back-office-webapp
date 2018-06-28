@@ -1,7 +1,7 @@
 'use strict';
 
-controllers.controller("EmployeeController", ["$scope", "backOfficeService", "$routeParams", "$timeout",
-    function ($scope, backOfficeService, $routeParams, $timeout) {
+controllers.controller("EmployeeController", ["$scope", "backOfficeService", "$routeParams", "$timeout", "growl",
+    function ($scope, backOfficeService, $routeParams, $timeout, growl) {
 
         /**
          */
@@ -20,20 +20,23 @@ controllers.controller("EmployeeController", ["$scope", "backOfficeService", "$r
         $scope.devicesSelected = null;
 
         /**
+         */
+        $scope.updateButton = "Search";
+
+        /**
          * get all devices
          */
         backOfficeService.getAllDevices().then(function (value) {
             $scope.devices = value.data;
 
-            $timeout(
-            angular.forEach($scope.employee.devices, function (value) {
+            //timeout to manage the default selection of isteven select
+            $timeout(angular.forEach($scope.employee.devices, function (value) {
                 angular.forEach($scope.devices, function (n) {
-                    if(value.id == n.id) {
+                    if (value.id == n.id) {
                         n.ticked = true;
                     }
                 });
             }), 5000);
-
         }, function (reason) {
             console.log("error occured");
         }, function (value) {
@@ -49,10 +52,10 @@ controllers.controller("EmployeeController", ["$scope", "backOfficeService", "$r
             if ($routeParams.id == 0) {
                 // nothing to do
             } else {
-                angular.forEach($scope.employees, function(value) {
+                angular.forEach($scope.employees, function (value) {
 
                     //arrive en premier
-                    if(value.id == $routeParams.id) {
+                    if (value.id == $routeParams.id) {
                         $scope.employee = value;
                     }
                 });
@@ -66,9 +69,27 @@ controllers.controller("EmployeeController", ["$scope", "backOfficeService", "$r
         /**
          */
         $scope.employeeSave = function () {
-            console.log("sublit form");
+            $scope.updateButton = "Searching";
 
-            console.log($scope.devicesSelected);
-        }
+            if ($scope.employeeForm.$invalid) {
+                return;
+            }
+
+            $scope.employee.devices = $scope.devicesSelected;
+
+            backOfficeService.employeeSave($scope.employee).then(function (value) {
+                growl.success("Employee successfully updated");
+                $scope.updateButton = "Search";
+                $scope.redirectTo("/employees");
+            }, function (reason) {
+                console.log("error occured");
+            }, function (value) {
+                console.log("no callback");
+            });
+        };
+
+        /**
+         */
+        $scope.ensureUserIsAuthenticated();
     }
 ]);

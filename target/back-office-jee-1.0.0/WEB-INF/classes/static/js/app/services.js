@@ -13,6 +13,10 @@ backoffice.factory('backOfficeService', [
             return $http.get(CONSTANTS.getAllEmployees);
         };
 
+        service.employeeSave = function (employee) {
+            return $http.put(CONSTANTS.updateEmployee + employee.id, employee);
+        };
+
         return service;
     }
 ]);

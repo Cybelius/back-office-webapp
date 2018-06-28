@@ -22,5 +22,9 @@ controllers.controller("EmployeesController", ["$scope", "backOfficeService",
         }, function (value) {
             console.log("no callback");
         });
+
+        /**
+         */
+        $scope.ensureUserIsAuthenticated();
     }
 ]);

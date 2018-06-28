@@ -1,6 +1,10 @@
 controllers.controller('HeaderController', [
-    '$scope',
-    function($scope) {
+    '$scope', 'growl', '$location',
+    function($scope, growl, $location) {
+
+
+
+
 
     }
 ]);

@@ -14,7 +14,7 @@
 
 /* ! create a "row" */
 .multiSelect .line {
-    padding:  2px 0px 4px 0px;
+    padding:  2px 0 4px 0;
     max-height: 30px;   
     overflow: hidden;
     box-sizing: content-box;
@@ -51,7 +51,6 @@
     white-space:normal;
     background-color: #fff;
     background-image: linear-gradient(#fff, #f7f7f7);
-    width: 310px;
 }
 
 /* button: hover */
