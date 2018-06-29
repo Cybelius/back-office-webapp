@@ -21,7 +21,7 @@ controllers.controller("EmployeeController", ["$scope", "backOfficeService", "$r
 
         /**
          */
-        $scope.updateButton = "Search";
+        $scope.getEmployeeButton = "Searching";
 
         /**
          * get all devices
@@ -38,9 +38,9 @@ controllers.controller("EmployeeController", ["$scope", "backOfficeService", "$r
                 });
             }), 5000);
         }, function (reason) {
-            console.log("error occured");
+            growl.error("error occured");
         }, function (value) {
-            console.log("no callback");
+            growl.warning("no callback");
         });
 
         /**
@@ -48,6 +48,7 @@ controllers.controller("EmployeeController", ["$scope", "backOfficeService", "$r
          */
         backOfficeService.getAllEmployees().then(function (value) {
             $scope.employees = value.data;
+            $scope.getEmployeeButton = "Search";
 
             if ($routeParams.id == 0) {
                 // nothing to do
@@ -61,9 +62,9 @@ controllers.controller("EmployeeController", ["$scope", "backOfficeService", "$r
                 });
             }
         }, function (reason) {
-            console.log("error occured");
+            growl.error("error occured");
         }, function (value) {
-            console.log("no callback");
+            growl.warning("no callback");
         });
 
         /**
@@ -82,9 +83,9 @@ controllers.controller("EmployeeController", ["$scope", "backOfficeService", "$r
                 $scope.updateButton = "Search";
                 $scope.redirectTo("/employees");
             }, function (reason) {
-                console.log("error occured");
+                growl.error("error occured");
             }, function (value) {
-                console.log("no callback");
+                growl.warning("no callback");
             });
         };
 

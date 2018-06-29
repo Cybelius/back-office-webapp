@@ -4,6 +4,10 @@ controllers.controller('SecurityController', [
 
         /**
          */
+        $scope.updateButton = "Search";
+
+        /**
+         */
         $scope.session = {
             user : {
                 authenticated : false,
@@ -18,16 +22,6 @@ controllers.controller('SecurityController', [
 
             $scope.setSessionUser(null);
         });
-
-        // /**
-        //  */
-        // $scope.login = function() {
-        //     if(session.user == null) {
-        //         $location.path('/login');
-        //     } else {
-        //         $scope.setSessionUser(configuration.login);
-        //     }
-        // };
 
         /**
          * @param data

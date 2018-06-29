@@ -30,11 +30,17 @@ input.spacing {
 .bo-bloc-icons {
     text-align: center;
     padding: 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
 }
 
 .bo-bloc-icons i {
     font-size: 36px;
     margin-bottom: 15px;
+}
+
+.main-content {
+    margin-top: 40px;
 }
 
 .fas.spinning {

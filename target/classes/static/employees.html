@@ -1,35 +1,52 @@
 <div class="bo-global-container">
     <div class="container">
 
-        <br>
-        <h2>List of employees</h2>
-        <br>
+        <div class="breadcrumb-wrapper">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Employees</li>
+                </ol>
+            </nav>
+        </div>
 
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                    <th scope="col">Id</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Lastname</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr ng-repeat="employee in employees">
-                    <td scope="row">
-                        {{employee.id}}
-                    </td>
-                    <td>
-                        <a href="#/employees/employee/{{employee.id}}">
-                            {{employee.name}}
-                        </a>
-                    </td>
-                    <td>
-                        {{employee.lastName}}
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="main-content">
+            <br>
+            <h2>List of employees</h2>
+            <p ng-show="updateButton == 'Searching'">
+                <span>
+                    <i class="fas fa-sync-alt spinning"></i>
+                </span>
+                Searching
+            </p>
+            <br>
 
-        <a href="#" class="btn btn-primary">Cancel</a>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Lastname</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="employee in employees">
+                        <td scope="row">
+                            {{employee.id}}
+                        </td>
+                        <td>
+                            <a href="#/employees/employee/{{employee.id}}">
+                                {{employee.name}}
+                            </a>
+                        </td>
+                        <td>
+                            {{employee.lastName}}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <a href="#" class="btn btn-primary">Cancel</a>
+        </div>
     </div>
 </div>

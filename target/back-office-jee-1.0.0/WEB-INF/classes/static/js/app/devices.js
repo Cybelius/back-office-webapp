@@ -1,7 +1,7 @@
 'use strict';
 
-controllers.controller("DevicesController", ["$scope", "backOfficeService",
-    function ($scope, backOfficeService) {
+controllers.controller("DevicesController", ["$scope", "backOfficeService", "growl",
+    function ($scope, backOfficeService, growl) {
 
         /**
          */
@@ -16,15 +16,17 @@ controllers.controller("DevicesController", ["$scope", "backOfficeService",
 
         /**
          */
+        $scope.updateButton = "Searching";
+
+        /**
+         */
         backOfficeService.getAllDevices().then(function (value) {
             $scope.devices = value.data;
-
-
-
+            $scope.updateButton = "Search";
         }, function (reason) {
-            console.log("error occured");
+            growl.error("error occured");
         }, function (value) {
-            console.log("no callback");
+            growl.warning("no callback");
         });
 
         /**

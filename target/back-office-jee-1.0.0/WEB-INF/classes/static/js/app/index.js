@@ -1,6 +1,6 @@
 'use strict';
 
-var backoffice = angular.module('BackOffice', ['BackOfficeControllers', 'ngRoute', 'angular-growl', 'isteven-multi-select']);
+var backoffice = angular.module('BackOffice', ['BackOfficeControllers', 'ngRoute', 'ngAnimate', 'angular-growl', 'isteven-multi-select']);
 
 backoffice.config([
     '$routeProvider', 'growlProvider',

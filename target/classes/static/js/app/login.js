@@ -22,7 +22,7 @@ controllers.controller("LoginController", ["$scope", "backOfficeService", "$rout
 
             if(login == $scope.loginIn.email) {
                 $scope.setSessionUser($scope.loginIn);
-
+                growl.success("Employee Successfully log in");
                 $scope.redirectTo('/home');
             } else {
                 growl.error("Invalid Credentials");

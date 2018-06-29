@@ -1,7 +1,7 @@
 'use strict';
 
-controllers.controller("EmployeesController", ["$scope", "backOfficeService",
-    function ($scope, backOfficeService) {
+controllers.controller("EmployeesController", ["$scope", "backOfficeService", "growl",
+    function ($scope, backOfficeService, growl) {
 
         /**
          */
@@ -14,13 +14,17 @@ controllers.controller("EmployeesController", ["$scope", "backOfficeService",
 
         /**
          */
+        $scope.updateButton = "Searching";
+
+        /**
+         */
         backOfficeService.getAllEmployees().then(function (value) {
             $scope.employees = value.data;
-
+            $scope.updateButton = "Search";
         }, function (reason) {
-            console.log("error occured");
+            growl.error("error occured");
         }, function (value) {
-            console.log("no callback");
+            growl.warning("no callback");
         });
 
         /**
