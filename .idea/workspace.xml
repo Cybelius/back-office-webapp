@@ -6,56 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="191818a4-c967-41a2-9942-8c36939bd139" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/app/app.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/app/app.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/app/login.css" afterPath="$PROJECT_DIR$/src/main/resources/static/css/app/login.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/devices.html" afterPath="$PROJECT_DIR$/src/main/resources/static/devices.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/employee.html" afterPath="$PROJECT_DIR$/src/main/resources/static/employee.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/employees.html" afterPath="$PROJECT_DIR$/src/main/resources/static/employees.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/home.html" afterPath="$PROJECT_DIR$/src/main/resources/static/home.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/devices.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/devices.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/employee.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/employee.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/employees.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/employees.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/header.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/header.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/home.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/home.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/login.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/login.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/security.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/security.js" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0.war" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0.war" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0.war.original" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0.war.original" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/css/app/app.css" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/css/app/app.css" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/css/app/login.css" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/css/app/login.css" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/devices.html" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/devices.html" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/employee.html" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/employee.html" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/employees.html" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/employees.html" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/home.html" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/home.html" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/index.html" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/devices.js" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/devices.js" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/employee.js" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/employee.js" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/employees.js" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/employees.js" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/header.js" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/header.js" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/home.js" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/home.js" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/index.js" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/index.js" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/login.js" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/login.js" />
-      <change beforePath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/security.js" afterPath="$PROJECT_DIR$/target/back-office-jee-1.0.0/WEB-INF/classes/static/js/app/security.js" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/app/app.css" afterPath="$PROJECT_DIR$/target/classes/static/css/app/app.css" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/app/login.css" afterPath="$PROJECT_DIR$/target/classes/static/css/app/login.css" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/devices.html" afterPath="$PROJECT_DIR$/target/classes/static/devices.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/employee.html" afterPath="$PROJECT_DIR$/target/classes/static/employee.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/employees.html" afterPath="$PROJECT_DIR$/target/classes/static/employees.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/home.html" afterPath="$PROJECT_DIR$/target/classes/static/home.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" afterPath="$PROJECT_DIR$/target/classes/static/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/app/devices.js" afterPath="$PROJECT_DIR$/target/classes/static/js/app/devices.js" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/app/employee.js" afterPath="$PROJECT_DIR$/target/classes/static/js/app/employee.js" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/app/employees.js" afterPath="$PROJECT_DIR$/target/classes/static/js/app/employees.js" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/app/header.js" afterPath="$PROJECT_DIR$/target/classes/static/js/app/header.js" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/app/home.js" afterPath="$PROJECT_DIR$/target/classes/static/js/app/home.js" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/app/index.js" afterPath="$PROJECT_DIR$/target/classes/static/js/app/index.js" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/app/login.js" afterPath="$PROJECT_DIR$/target/classes/static/js/app/login.js" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/js/app/security.js" afterPath="$PROJECT_DIR$/target/classes/static/js/app/security.js" />
-    </list>
+    <list default="true" id="191818a4-c967-41a2-9942-8c36939bd139" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="employee.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="employee.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/employee.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="225">
+              <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -90,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/app/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state relative-caret-position="660">
+              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -411,59 +362,6 @@
             <path>
               <item name="back-office-jee" type="b2602c69:ProjectViewProjectNode" />
               <item name="back-office-jee" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="back-office-jee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-office-jee" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="back-office-jee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-office-jee" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="back-office-jee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-office-jee" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="back-office-jee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-office-jee" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="back-office-jee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-office-jee" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="back-office-jee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-office-jee" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -701,12 +599,12 @@
       <workItem from="1530167865553" duration="4731000" />
       <workItem from="1530173235435" duration="10899000" />
       <workItem from="1530192384774" duration="3788000" />
-      <workItem from="1530254487744" duration="249000" />
+      <workItem from="1530254487744" duration="1759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51897000" />
+    <option name="totallyTimeSpent" value="53407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="23" width="1920" height="1057" extended-state="6" />
@@ -729,7 +627,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44728434" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44728434" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1055,14 +953,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/employee.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/app/devices.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1128,8 +1018,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/app/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="660">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/employee.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
           <folding />
         </state>
       </provider>
