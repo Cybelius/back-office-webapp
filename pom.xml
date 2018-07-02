@@ -6,8 +6,9 @@
 
     <groupId>com.back-office</groupId>
     <artifactId>back-office-jee</artifactId>
-    <version>1.0.1</version>
     <packaging>war</packaging>
+    <url>https://34.216.32.42</url>
+    <version>1.0.1</version>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
