@@ -17,6 +17,10 @@ backoffice.factory('backOfficeService', [
             return $http.put(CONSTANTS.updateEmployee + employee.id, employee);
         };
 
+        service.login = function (loginIn) {
+            return $http.post(CONSTANTS.loginEmployee, loginIn);
+        };
+
         return service;
     }
 ]);

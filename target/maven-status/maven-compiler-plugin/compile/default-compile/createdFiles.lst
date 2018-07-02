@@ -1,8 +1,14 @@
 com/backoffice/core/controller/DeviceController$1.class
+com/backoffice/core/service/LoginService.class
+com/backoffice/core/service/model/transitionmodel/DeviceAPI.class
+com/backoffice/core/service/model/transitionmodel/EmployeeAPI.class
 com/backoffice/core/controller/DeviceController.class
 com/backoffice/core/Application.class
-com/backoffice/core/service/DeviceAPI.class
-com/backoffice/core/service/EmployeeAPI.class
+com/backoffice/core/controller/LoginController.class
+com/backoffice/core/service/model/EmployeeIn.class
+com/backoffice/core/service/model/EmployeeOut.class
+com/backoffice/core/service/support/LoginServiceImpl.class
 com/backoffice/core/controller/HomeController.class
 com/backoffice/core/controller/EmployeeController.class
+com/backoffice/core/utils/DomainUtils.class
 com/backoffice/core/controller/EmployeeController$1.class

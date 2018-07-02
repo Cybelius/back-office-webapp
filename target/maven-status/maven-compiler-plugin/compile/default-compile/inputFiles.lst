@@ -1,6 +1,12 @@
 /Users/geoffrey/workspace/exia/back-office-jee/src/main/java/com/backoffice/core/controller/HomeController.java
-/Users/geoffrey/workspace/exia/back-office-jee/src/main/java/com/backoffice/core/service/DeviceAPI.java
+/Users/geoffrey/workspace/exia/back-office-jee/src/main/java/com/backoffice/core/service/model/transitionmodel/DeviceAPI.java
+/Users/geoffrey/workspace/exia/back-office-jee/src/main/java/com/backoffice/core/utils/DomainUtils.java
 /Users/geoffrey/workspace/exia/back-office-jee/src/main/java/com/backoffice/core/Application.java
+/Users/geoffrey/workspace/exia/back-office-jee/src/main/java/com/backoffice/core/service/support/LoginServiceImpl.java
+/Users/geoffrey/workspace/exia/back-office-jee/src/main/java/com/backoffice/core/service/model/EmployeeIn.java
+/Users/geoffrey/workspace/exia/back-office-jee/src/main/java/com/backoffice/core/service/model/transitionmodel/EmployeeAPI.java
 /Users/geoffrey/workspace/exia/back-office-jee/src/main/java/com/backoffice/core/controller/EmployeeController.java
-/Users/geoffrey/workspace/exia/back-office-jee/src/main/java/com/backoffice/core/service/EmployeeAPI.java
+/Users/geoffrey/workspace/exia/back-office-jee/src/main/java/com/backoffice/core/service/LoginService.java
 /Users/geoffrey/workspace/exia/back-office-jee/src/main/java/com/backoffice/core/controller/DeviceController.java
+/Users/geoffrey/workspace/exia/back-office-jee/src/main/java/com/backoffice/core/controller/LoginController.java
+/Users/geoffrey/workspace/exia/back-office-jee/src/main/java/com/backoffice/core/service/model/EmployeeOut.java

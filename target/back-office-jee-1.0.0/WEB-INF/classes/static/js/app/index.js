@@ -38,5 +38,6 @@ backoffice.constant("CONSTANTS", {
     getDevicesByEmployee: "/device/getDevciesByEmployee/",
     getAllDevices: "/devices",
     getAllEmployees: "/employees",
-    updateEmployee: "/employees/employee/"
+    updateEmployee: "/employees/employee/",
+    loginEmployee: "/login"
 });

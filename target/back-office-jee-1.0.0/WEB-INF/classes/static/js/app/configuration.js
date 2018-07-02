@@ -11,5 +11,9 @@ var configuration = {
     login : {
         email : 'administrator@legrand.com',
         password : 'password'
+    },
+    employee : {
+        email : 'gaetan.lopez@legrand.com',
+        password : 'password'
     }
 };

@@ -1,7 +1,6 @@
 package com.backoffice.core.controller;
 
-import com.backoffice.core.service.DeviceAPI;
-import com.backoffice.core.service.EmployeeAPI;
+import com.backoffice.core.service.model.transitionmodel.EmployeeAPI;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.ParameterizedTypeReference;

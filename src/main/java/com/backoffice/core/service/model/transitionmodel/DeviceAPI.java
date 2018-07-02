@@ -1,4 +1,4 @@
-package com.backoffice.core.service;
+package com.backoffice.core.service.model.transitionmodel;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

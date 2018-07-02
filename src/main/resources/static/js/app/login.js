@@ -6,27 +6,34 @@ controllers.controller("LoginController", ["$scope", "backOfficeService", "$rout
         /**
          */
         $scope.loginIn = {
-            email : configuration.login.email,
-            password : configuration.login.password
+            email : configuration.employee.email,
+            password : configuration.employee.password
         };
 
         /**
          */
         $scope.login = function () {
+            console.log($scope.loginIn);
 
             if($scope.loginForm.$invalid) {
                 return;
             }
 
-            var login = configuration.login.email;
+            backOfficeService.login($scope.loginIn).then(function (value) {
+                $scope.isAdmin = value.data;
 
-            if(login == $scope.loginIn.email) {
-                $scope.setSessionUser($scope.loginIn);
-                growl.success("Employee Successfully log in");
-                $scope.redirectTo('/home');
-            } else {
+                if ($scope.isAdmin) {
+                    $scope.setSessionUser($scope.loginIn);
+                    growl.success("Employee Successfully log in");
+                    $scope.redirectTo('/home');
+                } else {
+                    growl.error("Oops, Unauthorized Connection!");
+                }
+            }, function (reason) {
                 growl.error("Invalid Credentials");
-            }
+            }, function (value) {
+                growl.warning("no callback");
+            });
         };
 
     }

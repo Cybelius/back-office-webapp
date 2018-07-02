@@ -26,6 +26,20 @@
             <scope>compile</scope>
         </dependency>
 
+        <!--apache-->
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.10</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.5</version>
+            <scope>compile</scope>
+        </dependency>
+
         <!--tomcat-->
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
