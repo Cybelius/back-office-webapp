@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="back-office-jee:war">
     <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="back-office-jee-1.0.0.war">
+    <root id="archive" name="back-office-jee-1.0.1.war">
       <element id="artifact" artifact-name="back-office-jee:war exploded" />
     </root>
   </artifact>

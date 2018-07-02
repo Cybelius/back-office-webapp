@@ -5,6 +5,7 @@ com/backoffice/core/service/model/transitionmodel/EmployeeAPI.class
 com/backoffice/core/controller/DeviceController.class
 com/backoffice/core/Application.class
 com/backoffice/core/controller/LoginController.class
+com/backoffice/core/controller/AbstractController.class
 com/backoffice/core/service/model/EmployeeIn.class
 com/backoffice/core/service/model/EmployeeOut.class
 com/backoffice/core/service/support/LoginServiceImpl.class

@@ -17,7 +17,7 @@ import java.util.List;
  * Created by Geoffrey on 26.06.2018
  */
 @RestController
-public class DeviceController {
+public class DeviceController extends AbstractController {
 
     /**
      */
@@ -30,7 +30,6 @@ public class DeviceController {
     }
 
     /**
-     * TODO: test with postman on localhost:9090 with tomcat deployment
      * @return a list of devices
      */
     @RequestMapping(value = "/devices", method = RequestMethod.GET)
@@ -38,16 +37,12 @@ public class DeviceController {
         final RestTemplate restTemplate = new RestTemplate();
 
         final ResponseEntity<List<DeviceAPI>> deviceResponse =
-                restTemplate.exchange("http://localhost:8080/mobile-transaction/devices",
+                restTemplate.exchange(CONSTANT_WS_JEE_ENDPOINT + "/mobile-transaction/devices",
                         HttpMethod.GET, null, new ParameterizedTypeReference<List<DeviceAPI>>() {
                         }
                 );
 
-        final List<DeviceAPI> devices = deviceResponse.getBody();
-
-        log.info(devices.toString());
-
         //return the result
-        return devices;
+        return deviceResponse.getBody();
     }
 }

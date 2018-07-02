@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.backoffice.core</OriginalElement>
+  <nodes>
+    <node x="733.0" y="0.0">com.backoffice.core.service.model.EmployeeIn</node>
+    <node x="1175.210606060606" y="33.0">com.backoffice.core.service.model.EmployeeOut</node>
+    <node x="91.0" y="522.0">com.backoffice.core.service.model.transitionmodel.EmployeeAPI</node>
+    <node x="424.0" y="709.0">com.backoffice.core.controller.DeviceController</node>
+    <node x="111.125" y="0.0">com.backoffice.core.service.model.transitionmodel.DeviceAPI</node>
+    <node x="749.5416666666666" y="436.0">com.backoffice.core.controller.LoginController</node>
+    <node x="856.0416666666666" y="324.0">com.backoffice.core.service.LoginService</node>
+    <node x="0.0" y="1209.0">com.backoffice.core.Application</node>
+    <node x="0.0" y="1044.0">com.backoffice.core.controller.EmployeeController</node>
+    <node x="1138.0416666666665" y="447.0">com.backoffice.core.service.support.LoginServiceImpl</node>
+    <node x="492.0" y="1209.0">com.backoffice.core.controller.HomeController</node>
+    <node x="1143.0416666666665" y="324.0">com.backoffice.core.utils.DomainUtils</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.backoffice.core.service.LoginService" target="com.backoffice.core.service.model.EmployeeIn">
+      <point x="-66.5" y="-26.0" />
+      <point x="922.5416666666666" y="304.0" />
+      <point x="943.8333333333333" y="304.0" />
+      <point x="84.33333333333337" y="137.0" />
+    </edge>
+    <edge source="com.backoffice.core.service.LoginService" target="com.backoffice.core.service.model.EmployeeOut">
+      <point x="66.5" y="-26.0" />
+      <point x="1055.5416666666665" y="294.0" />
+      <point x="1203.460606060606" y="294.0" />
+      <point x="-84.75" y="104.0" />
+    </edge>
+    <edge source="com.backoffice.core.controller.LoginController" target="com.backoffice.core.service.LoginService">
+      <point x="0.0" y="-60.0" />
+      <point x="-66.5" y="26.0" />
+    </edge>
+    <edge source="com.backoffice.core.service.support.LoginServiceImpl" target="com.backoffice.core.utils.DomainUtils">
+      <point x="0.0" y="-49.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.backoffice.core.controller.LoginController" target="com.backoffice.core.service.model.EmployeeIn">
+      <point x="-115.33333333333326" y="-60.0" />
+      <point x="807.2083333333334" y="416.0" />
+      <point x="800.230303030303" y="416.0" />
+      <point x="800.230303030303" y="304.0" />
+      <point x="775.1666666666666" y="304.0" />
+      <point x="-84.33333333333331" y="137.0" />
+    </edge>
+    <edge source="com.backoffice.core.service.model.transitionmodel.EmployeeAPI" target="com.backoffice.core.service.model.transitionmodel.DeviceAPI">
+      <point x="-117.375" y="-236.0" />
+      <point x="130.125" y="497.0" />
+      <point x="146.225" y="497.0" />
+      <point x="-140.4" y="236.0" />
+    </edge>
+    <edge source="com.backoffice.core.controller.LoginController" target="com.backoffice.core.service.model.EmployeeOut">
+      <point x="115.33333333333337" y="-60.0" />
+      <point x="1037.875" y="416.0" />
+      <point x="1132.5416666666665" y="416.0" />
+      <point x="1132.5416666666665" y="304.0" />
+      <point x="1259.960606060606" y="304.0" />
+      <point x="-28.25" y="104.0" />
+    </edge>
+    <edge source="com.backoffice.core.service.model.transitionmodel.DeviceAPI" target="com.backoffice.core.service.model.transitionmodel.EmployeeAPI">
+      <point x="70.19999999999996" y="236.0" />
+      <point x="356.82499999999993" y="497.0" />
+      <point x="364.875" y="497.0" />
+      <point x="117.375" y="-236.0" />
+    </edge>
+    <edge source="com.backoffice.core.controller.EmployeeController" target="com.backoffice.core.service.model.transitionmodel.EmployeeAPI">
+      <point x="0.0" y="-60.0" />
+      <point x="0.0" y="236.0" />
+    </edge>
+    <edge source="com.backoffice.core.service.support.LoginServiceImpl" target="com.backoffice.core.service.LoginService">
+      <point x="-53.19999999999999" y="-49.0" />
+      <point x="1217.8416666666667" y="396.0" />
+      <point x="1055.5416666666665" y="396.0" />
+      <point x="66.5" y="26.0" />
+    </edge>
+    <edge source="com.backoffice.core.service.support.LoginServiceImpl" target="com.backoffice.core.service.model.EmployeeIn">
+      <point x="-106.39999999999998" y="-49.0" />
+      <point x="1164.6416666666667" y="406.0" />
+      <point x="826.5" y="406.0" />
+      <point x="826.5" y="304.0" />
+      <point x="859.5" y="304.0" />
+      <point x="0.0" y="137.0" />
+    </edge>
+    <edge source="com.backoffice.core.controller.DeviceController" target="com.backoffice.core.service.model.transitionmodel.DeviceAPI">
+      <point x="0.0" y="-49.0" />
+      <point x="556.0" y="497.0" />
+      <point x="427.025" y="497.0" />
+      <point x="140.39999999999998" y="236.0" />
+    </edge>
+    <edge source="com.backoffice.core.service.support.LoginServiceImpl" target="com.backoffice.core.service.model.EmployeeOut">
+      <point x="53.19999999999999" y="-49.0" />
+      <point x="1324.2416666666666" y="406.0" />
+      <point x="1409.5416666666665" y="406.0" />
+      <point x="1409.5416666666665" y="304.0" />
+      <point x="1316.460606060606" y="304.0" />
+      <point x="28.25" y="104.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4957936062815479" x="833.0" y="871.5000000000001" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

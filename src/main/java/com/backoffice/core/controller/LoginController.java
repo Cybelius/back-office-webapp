@@ -15,7 +15,7 @@ import org.springframework.web.client.RestTemplate;
  * Created by Geoffrey on 02.07.2018
  */
 @RestController
-public class LoginController {
+public class LoginController extends AbstractController {
 
     /**
      */
@@ -56,7 +56,7 @@ public class LoginController {
         final HttpEntity<EmployeeOut> entity = new HttpEntity<>(out, headers);
 
         final ResponseEntity<Boolean> response =
-                restTemplate.exchange("http://localhost:8080/back-office/employees/employee/login",
+                restTemplate.exchange(CONSTANT_WS_JEE_ENDPOINT + "/back-office/employees/employee/login",
                         HttpMethod.POST, entity, Boolean.class);
 
         final boolean isAdmin = response.getBody();

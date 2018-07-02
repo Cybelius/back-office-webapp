@@ -14,7 +14,7 @@ import java.util.List;
  * Created by Geoffrey on 26.06.2018
  */
 @RestController
-public class EmployeeController {
+public class EmployeeController extends AbstractController {
 
     /**
      */
@@ -36,17 +36,13 @@ public class EmployeeController {
         final RestTemplate restTemplate = new RestTemplate();
 
         final ResponseEntity<List<EmployeeAPI>> employeesResponse =
-                restTemplate.exchange("http://localhost:8080/back-office/employees",
+                restTemplate.exchange(CONSTANT_WS_JEE_ENDPOINT + "/back-office/employees",
                         HttpMethod.GET, null, new ParameterizedTypeReference<List<EmployeeAPI>>() {
                         }
                 );
 
-        final List<EmployeeAPI> employees = employeesResponse.getBody();
-
-        log.info(employees.toString());
-
         //return the result
-        return employees;
+        return employeesResponse.getBody();
     }
 
     /**
@@ -69,10 +65,8 @@ public class EmployeeController {
         final HttpEntity<EmployeeAPI> entity = new HttpEntity<>(employee, headers);
 
         final ResponseEntity<EmployeeAPI> response =
-                restTemplate.exchange("http://localhost:8080/back-office/employees/employee/" + id,
+                restTemplate.exchange(CONSTANT_WS_JEE_ENDPOINT + "/back-office/employees/employee/" + id,
                         HttpMethod.PUT, entity, EmployeeAPI.class);
-
-        log.info(response.toString());
 
         //return the result
         return new ResponseEntity<>(employee, HttpStatus.OK);
