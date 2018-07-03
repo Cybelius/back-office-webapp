@@ -38,6 +38,10 @@ public class DeviceAPI {
 
     /**
      */
+    private Boolean disabled;
+
+    /**
+     */
     public DeviceAPI() {
         super();
     }
@@ -50,10 +54,11 @@ public class DeviceAPI {
         return "DeviceAPI{" +
                 "id=" + id +
                 ", addressMac='" + addressMac + '\'' +
-                ", employees='" + employees + '\'' +
+                ", employees=" + employees +
                 ", name='" + name + '\'' +
                 ", nameDeviceType='" + nameDeviceType + '\'' +
                 ", typeDevices='" + typeDevices + '\'' +
+                ", disabled=" + disabled +
                 '}';
     }
 
@@ -127,5 +132,17 @@ public class DeviceAPI {
      */
     public void setTypeDevices(final String typeDevices) {
         this.typeDevices = typeDevices;
+    }
+
+    /**
+     */
+    public Boolean getDisabled() {
+        return disabled;
+    }
+
+    /**
+     */
+    public void setDisabled(final Boolean disabled) {
+        this.disabled = disabled;
     }
 }

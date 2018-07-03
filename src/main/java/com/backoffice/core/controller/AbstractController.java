@@ -7,7 +7,7 @@ abstract class AbstractController {
 
     /**
      */
-    protected static final String CONSTANT_WS_JEE_ENDPOINT = "http://34.216.32.42:8080";
+    protected static final String CONSTANT_WS_JEE_ENDPOINT = "http://54.201.219.212:8080";
 
     /**
      */

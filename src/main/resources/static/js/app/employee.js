@@ -55,7 +55,7 @@ controllers.controller("EmployeeController", ["$scope", "backOfficeService", "$r
             } else {
                 angular.forEach($scope.employees, function (value) {
 
-                    //arrive en premier
+                    //come first
                     if (value.id == $routeParams.id) {
                         $scope.employee = value;
                     }

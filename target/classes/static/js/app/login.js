@@ -13,7 +13,6 @@ controllers.controller("LoginController", ["$scope", "backOfficeService", "$rout
         /**
          */
         $scope.login = function () {
-            console.log($scope.loginIn);
 
             if($scope.loginForm.$invalid) {
                 return;

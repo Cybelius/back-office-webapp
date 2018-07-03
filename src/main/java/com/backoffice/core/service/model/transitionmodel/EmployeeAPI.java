@@ -38,6 +38,10 @@ public class EmployeeAPI {
 
     /**
      */
+    private Boolean isAdmin;
+
+    /**
+     */
     public EmployeeAPI() {
         super();
     }
@@ -53,6 +57,7 @@ public class EmployeeAPI {
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
+                ", isAdmin=" + isAdmin +
                 '}';
     }
 
@@ -126,6 +131,18 @@ public class EmployeeAPI {
      */
     public void setPassword(final String password) {
         this.password = password;
+    }
+
+    /**
+     */
+    public Boolean getAdmin() {
+        return isAdmin;
+    }
+
+    /**
+     */
+    public void setAdmin(final Boolean admin) {
+        isAdmin = admin;
     }
 }
 
